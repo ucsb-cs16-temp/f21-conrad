@@ -20,47 +20,35 @@ timeline:
   - '5:30 PM'
 schedule:
   - name: Monday
+  - name: Tuesday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
         start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
-  - name: Tuesday
+        end: 1:45 PM
+        location: BUCHN 1920
   - name: Wednesday
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+      - name: Discussion
+        start: 1:00 PM
+        end: 1:50 PM
+        location: Phelps 3525
+      - name: Discussion
+        start: 2:00 PM
+        end: 2:50 PM
+        location: Phelps 3525
+      - name: Discussion
+        start: 3:00 PM
+        end: 3:50 PM
+        location: Phelps 3525
+      - name: Discussion
+        start: 4:00 PM
+        end: 4:50 PM
+        location: Phelps 3525
   - name: Thursday
-  - name: Friday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
         start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        end: 1:45 PM
+        location: BUCHN 1920
+  - name: Friday
 ---
