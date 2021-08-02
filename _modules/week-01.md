@@ -1,8 +1,8 @@
 ---
-title: Introduction to Java
+title: Week 1
 ---
 
-Sep 28
+Sep 23
 : [Java & Git](#)
   : [1.1](#)
 

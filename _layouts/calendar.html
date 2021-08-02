@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h2 class="fs-4" id="{{ page.title | slugify }}" >{{ page.title }}</h2>
+<h3>USING CALENDAR LAYOUT!!!</h3>
+<div class="module">
+  {{ content }}
+</div>
+
+<script
+   src="https://code.jquery.com/jquery-3.3.1.min.js"
+   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+   crossorigin="anonymous"></script>
+<script src="{{ '/assets/js/moment.min.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/calendar.js' | relative_url }}"></script>
