@@ -23,9 +23,9 @@ schedule:
   - name: Tuesday
     events:
       - name: Lecture
-        start: 12:30 PM
-        end: 1:45 PM
-        location: BUCHN 1920
+        start: 2:00 PM
+        end: 3:15 PM
+        location: CHEM 1179
   - name: Wednesday
     events:
       - name: Discussion
@@ -47,8 +47,8 @@ schedule:
   - name: Thursday
     events:
       - name: Lecture
-        start: 12:30 PM
-        end: 1:45 PM
-        location: BUCHN 1920
+        start: 2:00 PM
+        end: 3:15 PM
+        location: CHEM 1179
   - name: Friday
 ---
