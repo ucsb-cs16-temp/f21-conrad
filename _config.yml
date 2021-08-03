@@ -33,10 +33,10 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
+  ucsb-cs16:
+    - 'https://ucsb-cs16.github.io'
+  Phill Conrad:
+    - 'https://cs.ucsb.edu/~pconrad'
 footer_content:
 
 # Collections for website data
