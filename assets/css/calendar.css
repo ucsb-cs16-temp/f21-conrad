@@ -3,9 +3,26 @@
     width: 100%;
 }
 
-.calendar table tr th,td {
-    border: 1px solid black;
+.calendar table thead tr th {
+    border: 1px solid gray;
 }
+
+.calendar table tbody tr td {
+   border: 1px solid gray;
+}
+
+.calendar table  thead tr {
+   border-top: 2px solid black;
+} 
+
+.calendar table  * tr {
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+}
+
+.calendar table tbody tr:last-of-type {
+   border-bottom: 2px solid black;
+} 
 
 .calendar table tr td  {
     text-align:center;

@@ -10,5 +10,5 @@ description: Listing of programming assignments
 
 | Lab | Title |
 |-----|-------|
-{% for lab in real_labs %}| [{{lab.num}}]({{lab.url}}) | {{ lab.desc }} |
+{% for lab in real_labs %}| [{{lab.num}}]({{lab.url | relative_url }}) | {{ lab.desc }} |
 {% endfor %}

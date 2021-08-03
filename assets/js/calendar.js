@@ -150,11 +150,13 @@ function setUpCalendar() {
 function addCalendarTable(cal) {
 
   $('div.calendar').append('<table >');
-  $('div.calendar table').append('<tr><th>Week</th><th>S</th><th>M</th><th>T</th><th>W</th><th>R</th><th>F</th><th>S</th></tr>');
+  $('div.calendar table').append('<thead><tr><th>Week</th><th>S</th><th>M</th><th>T</th><th>W</th><th>R</th><th>F</th><th>S</th></tr></thead>');
+  $('div.calendar table').append('<tbody></tbody>');
+  
   var thisDay = new moment(cal.startDate);
   for (var i = cal.startWeek; i < (cal.startWeek + cal.numWeeks); i++) {
-    $('div.calendar table').append('<tr data-week-num="' + i + '" />')
-    var thisWeeksTrSelector = 'div.calendar table tr[data-week-num="' + i + '"]';
+    $('div.calendar table tbody').append('<tr data-week-num="' + i + '" />')
+    var thisWeeksTrSelector = 'div.calendar table tbody tr[data-week-num="' + i + '"]';
     $(thisWeeksTrSelector).append('<td>' + i + '</td>');
     for (var day = 1; day <= 7; day++) {
       var thisDateFormatted = thisDay.format("MM/DD");
@@ -174,8 +176,8 @@ function addCalendarTable(cal) {
     var selector = "exam-week";
     var label = "Final<br>Exam<br>Week";
 
-    $('div.calendar table').append('<tr data-week-num="' + selector + '" />')
-    var thisWeeksTrSelector = 'div.calendar table tr[data-week-num="' + selector + '"]';
+    $('div.calendar table tbody').append('<tr data-week-num="' + selector + '" />')
+    var thisWeeksTrSelector = 'div.calendar table tbody tr[data-week-num="' + selector + '"]';
     $(thisWeeksTrSelector).append('<td class="exam-week-label">' + label + '</td>');
     for (var day = 1; day <= 7; day++) {
       var thisDateFormatted = thisDay.format("MM/DD");
